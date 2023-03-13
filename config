@@ -83,7 +83,7 @@ for_window [class=".*"] border pixel 2
 for_window [class=".*"] title_format ""
 
 # border colorsa              border      background  text        indicator     childborder
-client.focused                $gruvbox_red   $gruvbox_red $gruvbox_fg $gruvbox_red
+client.focused                $gruvbox_blue   $gruvbox_blue $gruvbox_fg $gruvbox_blue
 client.unfocused              $gruvbox_gray   $gruvbox_gray   $gruvbox_fg     $gruvbox_gray
 
 # gaps between windows
@@ -227,24 +227,3 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
-
-#  _                
-# | |__   __ _ _ __ 
-# | '_ \ / _` | '__|
-# | |_) | (_| | |   
-# |_.__/ \__,_|_|   
-
-# bar {
-#   # status_command         
-#   tray_output           primary
-#   position              top
-#   height                28
-#  
-#   colors {
-#     background          $gruvbox_bg
-
-#     focused_workspace   $gruvbox_bg $gruvbox_bg $gruvbox_yellow
-#     active_workspace    $gruvbox_bg $gruvbox_bg $gruvbox_fg
-#     inactive_workspace  $gruvbox_bg $gruvbox_bg $gruvbox_fg
-#   }
-# }
